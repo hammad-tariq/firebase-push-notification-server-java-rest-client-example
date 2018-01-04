@@ -1,0 +1,18 @@
+group 'pushnotification'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile 'javax.annotation:javax.annotation-api:1.2'
+    compile 'com.google.code.gson:gson:2.8.1'
+    compile 'org.apache.httpcomponents:httpclient:4.5.4'
+
+}
